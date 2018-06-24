@@ -23,6 +23,16 @@ class PlayerClass:SKSpriteNode {
         /// wobbing Player玩家
         let playerAnimation = SKAction.animate(with: playerTextures, timePerFrame: TimeInterval(0.1))
         let repeatAction = SKAction.repeatForever(playerAnimation)
-        self.run(repeatAction, withKey: "wobbing")
+        self.run(repeatAction, withKey: "flap") /// 排打翅膀
+        
+    }
+    
+    func startWobbing(){
+        let moveUp   = SKAction.moveBy(x: 0, y: 50, duration: 0.5)
+        moveUp.timingMode = .easeInEaseOut
+        let moveDown = moveUp.reversed()
+        let sequence = SKAction.sequence([moveUp,moveDown])
+        let repeatWobble = SKAction.repeatForever(sequence)
+        self.run(repeatWobble, withKey: "wobbing") /// 上下浮动
     }
 }

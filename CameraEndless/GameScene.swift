@@ -29,7 +29,17 @@ class GameScene: SKScene {
     func initUI(){
         /// player名称为GameScene.sks 上自行命名的名称
         player = childNode(withName: "player") as! PlayerClass
-        player.initPlayer() /// 开始Wobbing
+        //MARK:- Emitter juice 加入果酱
+        let trailNode = SKNode()
+        trailNode.zPosition = 1
+        self.addChild(trailNode)
+        let emitter = SKEmitterNode(fileNamed: "Trail")!
+        emitter.targetNode = trailNode
+        player.addChild(emitter)
+        
+        
+        player.initPlayer()   /// 拍打翅膀
+        player.startWobbing() /// 开始Wobbing
         ground = childNode(withName: "ground") as! SKSpriteNode
         bg     = childNode(withName: "bg") as! SKSpriteNode
         cloud  = childNode(withName: "cloud") as! SKSpriteNode

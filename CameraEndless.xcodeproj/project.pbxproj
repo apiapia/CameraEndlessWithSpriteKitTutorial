@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2121171220DFEF4800C940B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2121171020DFEF4800C940B0 /* Assets.xcassets */; };
+		2121171320DFEF4800C940B0 /* Trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2121171120DFEF4800C940B0 /* Trail.sks */; };
 		21828F0520DF5D6D005B0664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21828F0420DF5D6D005B0664 /* AppDelegate.swift */; };
 		21828F0720DF5D6D005B0664 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 21828F0620DF5D6D005B0664 /* GameScene.sks */; };
 		21828F0B20DF5D6D005B0664 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21828F0A20DF5D6D005B0664 /* GameScene.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2121171020DFEF4800C940B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2121171120DFEF4800C940B0 /* Trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Trail.sks; sourceTree = "<group>"; };
 		21828F0120DF5D6D005B0664 /* CameraEndless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraEndless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21828F0420DF5D6D005B0664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21828F0620DF5D6D005B0664 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -43,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2121170F20DFEF4800C940B0 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				2121171020DFEF4800C940B0 /* Assets.xcassets */,
+				2121171120DFEF4800C940B0 /* Trail.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 		21828EF820DF5D6D005B0664 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,7 @@
 		21828F0320DF5D6D005B0664 /* CameraEndless */ = {
 			isa = PBXGroup;
 			children = (
+				2121170F20DFEF4800C940B0 /* Particles */,
 				21828F0420DF5D6D005B0664 /* AppDelegate.swift */,
 				21828F1E20DF6273005B0664 /* PlayerClass.swift */,
 				21828F0620DF5D6D005B0664 /* GameScene.sks */,
@@ -137,7 +151,9 @@
 				21828F1020DF5D6D005B0664 /* Main.storyboard in Resources */,
 				21828F0720DF5D6D005B0664 /* GameScene.sks in Resources */,
 				21828F1220DF5D6E005B0664 /* Assets.xcassets in Resources */,
+				2121171320DFEF4800C940B0 /* Trail.sks in Resources */,
 				21828F1520DF5D6E005B0664 /* LaunchScreen.storyboard in Resources */,
+				2121171220DFEF4800C940B0 /* Assets.xcassets in Resources */,
 				21828F1D20DF5E67005B0664 /* penguin.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
