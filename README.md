@@ -19,6 +19,7 @@ camera的节点移动到2048(self.size.width)的时候，把红色框内的节�
         }
         
 完整的代码如下：
+
 //
 //  GameScene.swift
 //  CameraEndless
@@ -89,5 +90,6 @@ class GameScene: SKScene {
         moveSprites(camera: mainCamera)           /// 传入相机节点
     }
 }
+
 
 更多教程：http://www.iFIERO.com
