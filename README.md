@@ -1,4 +1,4 @@
-# CameraEndlessWithSpriteKitTutorial
+
 A Tutorial For How To Use SpriteKit Camera Making Endless Background 
 
 <img src="https://upload-images.jianshu.io/upload_images/3896436-5ea7bb7aff8f1660.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
@@ -7,7 +7,7 @@ A Tutorial For How To Use SpriteKit Camera Making Endless Background
 <img src="http://www.ifiero.com/wp-content/uploads/2018/06/wobbing.png">
 Player运用Camera节点向前移动的效果
 
-<img src="https://upload-images.jianshu.io/upload_images/3896436-229fb278525be6c3.png?imageMogr2/auto-orient/">
+<img src="https://upload-images.jianshu.io/upload_images/3896436-229fb278525be6c3.png">
 camera的节点移动到2048(self.size.width)的时候，把红色框内的节点移动到最右边( node.position.x += self.size.width * SCENE_NUMBERS)
 
 ```
