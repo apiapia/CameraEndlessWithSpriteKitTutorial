@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ifiero-logo" translatesAutoresizingMaskIntoConstraints="NO" id="7WK-bA-Npx">
+                                <rect key="frame" x="291" y="145" width="85" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="PfA-Ii-OgL"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="85" id="T8M-9o-RNq"/>
+                                    <constraint firstAttribute="width" constant="85" id="dmf-lw-UgO"/>
+                                    <constraint firstAttribute="height" constant="85" id="e5h-YE-AFY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iFIERO -- 教学课程" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adn-no-xJd">
+                                <rect key="frame" x="261" y="255" width="144" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAMERA实现游戏中的ENDLESS无限循环背景" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYc-wb-nda">
+                                <rect key="frame" x="158" y="284" width="351" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7WK-bA-Npx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3He-ZA-jyS"/>
+                            <constraint firstItem="7WK-bA-Npx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Eqn-0D-eU6"/>
+                            <constraint firstItem="adn-no-xJd" firstAttribute="centerX" secondItem="7WK-bA-Npx" secondAttribute="centerX" id="Q3I-7g-b8a"/>
+                            <constraint firstItem="adn-no-xJd" firstAttribute="top" secondItem="7WK-bA-Npx" secondAttribute="bottom" constant="25" id="SIK-0l-mSN"/>
+                            <constraint firstItem="WYc-wb-nda" firstAttribute="top" secondItem="adn-no-xJd" secondAttribute="bottom" constant="8" symbolic="YES" id="Yha-u6-cEy"/>
+                            <constraint firstItem="adn-no-xJd" firstAttribute="centerX" secondItem="WYc-wb-nda" secondAttribute="centerX" id="x5g-RJ-MoA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="667" height="375"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ifiero-logo" width="85" height="85"/>
+    </resources>
+</document>
