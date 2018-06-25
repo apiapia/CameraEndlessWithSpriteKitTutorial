@@ -18,11 +18,11 @@ player的Custom Class 为自定义Node
 
 <img src="https://upload-images.jianshu.io/upload_images/3896436-7596037a73110e5a.png?imageMogr2/auto-orient/" alt="" />
 相机Camera的Position(0,0) ,Zposition为1
+
+<img src="https://upload-images.jianshu.io/upload_images/3896436-852bd1f2232cd6c8.png?imageMogr2/auto-orient/" alt="" />
 设置Scene的Camera为mainCamera
 
 <img src="https://upload-images.jianshu.io/upload_images/3896436-229fb278525be6c3.png?imageMogr2/auto-orient/" alt="" />
-
-<img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/" alt="" />
 camera的节点移动到2048(self.size.width)的时候，把红色框内的节点移动到最右边( node.position.x += self.size.width * SCENE_NUMBERS)
 
 
