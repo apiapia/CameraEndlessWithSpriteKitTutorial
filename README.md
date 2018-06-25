@@ -1,14 +1,30 @@
 
 A Tutorial For How To Use SpriteKit Camera Making Endless Background 
 
-<img src="https://upload-images.jianshu.io/upload_images/3896436-5ea7bb7aff8f1660.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
-如何应用SPRITEKIT的CAMERA实现游戏中的ENDLESS无限循环背景
-
-<img src="http://www.ifiero.com/wp-content/uploads/2018/06/wobbing.png">
+<img src="https://upload-images.jianshu.io/upload_images/3896436-5ea7bb7aff8f1660.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" alt="效果" />
 Player运用Camera节点向前移动的效果
 
-<img src="https://upload-images.jianshu.io/upload_images/3896436-229fb278525be6c3.png">
+<img class="alignnone size-full wp-image-469" src="http://www.ifiero.com/wp-content/uploads/2018/06/wobbing.png" alt="" width="1000" height="551" />
+向前舞动
+
+<img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" alt="" />
+命为SpriteNode为player
+
+<img src="https://upload-images.jianshu.io/upload_images/3896436-05063a2325524555.png?imageMogr2/auto-orient/" alt="" />
+player的Custom Class 为自定义Node
+
+<img src="https://upload-images.jianshu.io/upload_images/3896436-5525c51c89ea758b.png?imageMogr2/auto-orient/" alt="" />
+拖动Camera 进场景中，命名为mainCamera
+
+<img src="https://upload-images.jianshu.io/upload_images/3896436-7596037a73110e5a.png?imageMogr2/auto-orient/" alt="" />
+相机Camera的Position(0,0) ,Zposition为1
+设置Scene的Camera为mainCamera
+
+<img src="https://upload-images.jianshu.io/upload_images/3896436-229fb278525be6c3.png?imageMogr2/auto-orient/" alt="" />
+
+<img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/" alt="" />
 camera的节点移动到2048(self.size.width)的时候，把红色框内的节点移动到最右边( node.position.x += self.size.width * SCENE_NUMBERS)
+
 
 ```
  /// 查找所有命名为ground的精灵节点
