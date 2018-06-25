@@ -10,7 +10,7 @@ Player运用Camera节点向前移动的效果
 <img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/" alt="" />
 命为SpriteNode为player
 
-<img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/" alt="" />
+<img src="https://upload-images.jianshu.io/upload_images/3896436-05063a2325524555.png?imageMogr2/auto-orient/" alt="" />
 player的Custom Class 为自定义Node
 
 <img src="https://upload-images.jianshu.io/upload_images/3896436-5525c51c89ea758b.png?imageMogr2/auto-orient/" alt="" />
