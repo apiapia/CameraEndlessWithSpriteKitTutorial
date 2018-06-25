@@ -7,7 +7,7 @@ Player运用Camera节点向前移动的效果
 <img class="alignnone size-full wp-image-469" src="http://www.ifiero.com/wp-content/uploads/2018/06/wobbing.png" alt="" width="1000" height="551" />
 向前舞动
 
-<img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" alt="" />
+<img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/" alt="" />
 命为SpriteNode为player
 
 <img src="https://upload-images.jianshu.io/upload_images/3896436-7fa3ce6c8cc4f30d.png?imageMogr2/auto-orient/" alt="" />
